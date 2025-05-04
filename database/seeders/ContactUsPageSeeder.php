@@ -106,8 +106,8 @@ class ContactUsPageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $contactUsPageArabicAE->id,
             [
-                'title' => 'شكرا لاهتمامك بمشروع كسوة',
-                'description' => 'لمزيد من المعلومات والتفاصيل حول كسوة، يسرنا تواصلك معنا في أي وقت',
+                'title' => 'شكرا لاهتمامك بمشروع جرين كلوزيت',
+                'description' => 'لمزيد من المعلومات والتفاصيل حول جرين كلوزيت، يسرنا تواصلك معنا في أي وقت',
                 'contact' => [
                  [
                         'title' => 'الايميل',
@@ -255,8 +255,8 @@ class ContactUsPageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $contactUsPageArabicSA->id,
             [
-                'title' => 'شكرا لاهتمامك بمشروع كسوة',
-                'description' => 'لمزيد من المعلومات والتفاصيل حول كسوة، يسرنا تواصلك معنا في أي وقت',
+                'title' => 'شكرا لاهتمامك بمشروع جرين كلوزيت',
+                'description' => 'لمزيد من المعلومات والتفاصيل حول جرين كلوزيت، يسرنا تواصلك معنا في أي وقت',
                 'contact' => [
                     [
                         'title' => 'الإيميل',
@@ -402,8 +402,8 @@ class ContactUsPageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $contactUsPageArabicKW->id,
             [
-                'title' => 'شكرا لاهتمامك بمشروع كسوة',
-                'description' => 'لمزيد من المعلومات والتفاصيل حول كسوة، يسرنا تواصلك معنا في أي وقت',
+                'title' => 'شكرا لاهتمامك بمشروع جرين كلوزيت',
+                'description' => 'لمزيد من المعلومات والتفاصيل حول جرين كلوزيت، يسرنا تواصلك معنا في أي وقت',
                 'contact' => [
                     [
                         'title' => 'الإيميل',

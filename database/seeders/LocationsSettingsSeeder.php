@@ -107,7 +107,7 @@ class LocationsSettingsSeeder extends Seeder
                     ],
                     'links' => [
                         [
-                            'title' => ' جميع الحقوق محفوظة . كسوة 2022 ©',
+                            'title' => ' جميع الحقوق محفوظة . جرين كلوزيت 2022 ©',
                             'link' => '',
                             'target' => '_self',
                         ],
@@ -329,7 +329,7 @@ class LocationsSettingsSeeder extends Seeder
                     ],
                     'links' => [
                         [
-                            'title' => ' جميع الحقوق محفوظة . كسوة 2022 ©',
+                            'title' => ' جميع الحقوق محفوظة . جرين كلوزيت 2022 ©',
                             'link' => '',
                             'target' => '_self',
                         ],
@@ -541,7 +541,7 @@ class LocationsSettingsSeeder extends Seeder
                     ],
                     'links' => [
                         [
-                            'title' => ' جميع الحقوق محفوظة . كسوة 2022 ©',
+                            'title' => ' جميع الحقوق محفوظة . جرين كلوزيت 2022 ©',
                             'link' => '',
                             'target' => '_self',
                         ],

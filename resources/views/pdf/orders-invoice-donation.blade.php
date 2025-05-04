@@ -87,7 +87,7 @@
     </div>
     <div class="" style="float: right;width: 70%; text-align: right">
         <p style="margin: 0; padding: 0">Kiswa Operating and Recycling</p>
-        <p style="margin: 0; padding: 0">كسوة للتشغيل والتدوير ش.ذ.م.م</p>
+        <p style="margin: 0; padding: 0">جرين كلوزيت للتشغيل والتدوير ش.ذ.م.م</p>
         <p style="margin-top: 1cm">{{$address}}</p>
     </div>
 

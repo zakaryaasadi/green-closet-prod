@@ -7,7 +7,7 @@
     $site_name = 'Kiswa';
     if ($locationSetting->language->code == 'ar'){
         $title = $settings?->header_title_arabic;
-        $site_name = 'كسوة';
+        $site_name = 'جرين كلوزيت';
     }
     else
         $title = $settings?->header_title;

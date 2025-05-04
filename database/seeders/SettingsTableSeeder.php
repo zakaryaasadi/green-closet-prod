@@ -85,7 +85,7 @@ class SettingsTableSeeder extends Seeder
             'finish_work' => '04:00',
             'work_shift' => DischargeShift::EVENING_SHIFT,
             'favicon' => 'https://kiswame.com/storage/all_media/favicon (2)_20230403102147000.png',
-            'header_title_arabic' => 'كسوة',
+            'header_title_arabic' => 'جرين كلوزيت',
         ]);
     }
 
@@ -126,7 +126,7 @@ class SettingsTableSeeder extends Seeder
             'finish_work' => '04:00',
             'work_shift' => DischargeShift::EVENING_SHIFT,
             'favicon' => 'https://kiswame.com/storage/all_media/favicon (2)_20230403102147000.png',
-            'header_title_arabic' => 'كسوة',
+            'header_title_arabic' => 'جرين كلوزيت',
         ]);
     }
 }

@@ -538,8 +538,8 @@ class CountryRepository extends BaseRepository
         PagesTableSeeder::createSection(
             $contactUsPageArabic->id,
             [
-                'title' => 'شكرا لاهتمامك بمشروع كسوة',
-                'description' => 'لمزيد من المعلومات والتفاصيل حول كسوة، يسرنا تواصلك معنا في أي وقت',
+                'title' => 'شكرا لاهتمامك بمشروع جرين كلوزيت',
+                'description' => 'لمزيد من المعلومات والتفاصيل حول جرين كلوزيت، يسرنا تواصلك معنا في أي وقت',
                 'contact' => [
                     [
                         'title' => 'الايميل',
@@ -648,7 +648,7 @@ class CountryRepository extends BaseRepository
         PagesTableSeeder::createSection(
             $offersPageArabic->id,
             [
-                'title' => 'العروض من كسوة',
+                'title' => 'العروض من جرين كلوزيت',
                 'component_target' => TargetType::BLANK,
             ],
             SectionType::OFFER_PAGE,
@@ -844,14 +844,14 @@ class CountryRepository extends BaseRepository
                     [
                         'image' => '/images/sliders/slider1.png',
                         'title' => 'ساهم بالحفاظ على البيئة',
-                        'sub_title' => 'كسوة هو مشروع للاستفادة من فائض الملابس المستعملة وايصالها لمن هو بحاجة لها',
+                        'sub_title' => 'جرين كلوزيت هو مشروع للاستفادة من فائض الملابس المستعملة وايصالها لمن هو بحاجة لها',
                         'description' => 'قم بإنشاء طلبك الآن ,وسوف يصلك مندوبنا لاستلام فائض ملابسكم',
                         'buttons' => [],
                     ],
                     [
                         'image' => '/images/sliders/slider2.png',
                         'title' => 'ساهم بالحفاظ على البيئة',
-                        'sub_title' => 'كسوة هو مشروع للاستفادة من فائض الملابس المستعملة وايصالها لمن هو بحاجة لها',
+                        'sub_title' => 'جرين كلوزيت هو مشروع للاستفادة من فائض الملابس المستعملة وايصالها لمن هو بحاجة لها',
                         'description' => 'قم بإنشاء طلبك الآن ,وسوف يصلك مندوبنا لاستلام فائض ملابسكم',
                         'button' => [
                             'title' => 'CTA - Button',
@@ -862,7 +862,7 @@ class CountryRepository extends BaseRepository
                     [
                         'image' => '/images/sliders/slider3.png',
                         'title' => 'ساهم بالحفاظ على البيئة',
-                        'sub_title' => 'كسوة هو مشروع للاستفادة من فائض الملابس المستعملة وايصالها لمن هو بحاجة لها',
+                        'sub_title' => 'جرين كلوزيت هو مشروع للاستفادة من فائض الملابس المستعملة وايصالها لمن هو بحاجة لها',
                         'description' => 'قم بإنشاء طلبك الآن ,وسوف يصلك مندوبنا لاستلام فائض ملابسكم',
                         'button' => [
                             'title' => 'CTA - Button',
@@ -903,7 +903,7 @@ class CountryRepository extends BaseRepository
                         'answer' => 'جميع أنواع الملابس والأقمشة المستعملة أو التالفة مهما كانت حالتها بالإضافة الى الشنط والأحذية والاكسسوارات والالعاب.',
                     ],
                     [
-                        'question' => 'ماهي آلية عمل كسوة؟',
+                        'question' => 'ماهي آلية عمل جرين كلوزيت؟',
                         'answer' => 'جميع أنواع الملابس والأقمشة المستعملة أو التالفة مهما كانت حالتها بالإضافة الى الشنط والأحذية والاكسسوارات والالعاب.',
                     ],
                     [
@@ -928,7 +928,7 @@ class CountryRepository extends BaseRepository
             [
                 'background' => '/images/About-us-BG.png',
                 'title' => 'ساهم معنا في التطلع لحياه افضل',
-                'description' => 'حمّل تطبيق كسوة الان',
+                'description' => 'حمّل تطبيق جرين كلوزيت الان',
                 'apps' => [
                     [
                         'link' => 'android app url',
@@ -986,25 +986,25 @@ class CountryRepository extends BaseRepository
                     ],
                     [
                         'title' => 'تأكيد الطلب',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_two.png',
                     ],
                     [
                         'title' => 'استلام التبرعات',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_three.png',
                     ],
                     [
                         'title' => 'إعادة التدوير',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_four.png',
                     ],
                     [
                         'title' => 'التوزيع',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_five.png',
                     ],
@@ -1017,7 +1017,7 @@ class CountryRepository extends BaseRepository
             $homePageArabic->id,
             [
                 'background' => '/images/benefits/benefitBG.png',
-                'title' => 'فوائد مشروع كسوة',
+                'title' => 'فوائد مشروع جرين كلوزيت',
                 'cards' => [
                     [
                         'title' => 'فوائد بيئية وحضارية',
@@ -1045,7 +1045,7 @@ class CountryRepository extends BaseRepository
         PagesTableSeeder::createSection(
             $homePageArabic->id,
             [
-                'title' => 'عروض كسوة',
+                'title' => 'عروض جرين كلوزيت',
                 'description' => 'بمساعدة شركائنا  يمكنك الاستفادة من نقاطك في الحصول على عروض  تناسبك حياتك اليوميه',
                 'button' => [
                     'title' => 'تعرف على عروضنا',
@@ -1195,7 +1195,7 @@ class CountryRepository extends BaseRepository
                     ],
                     'links' => [
                         [
-                            'title' => ' جميع الحقوق محفوظة . كسوة 2022 ©',
+                            'title' => ' جميع الحقوق محفوظة . جرين كلوزيت 2022 ©',
                             'link' => '',
                             'target' => '_self',
                         ],
@@ -1289,7 +1289,7 @@ class CountryRepository extends BaseRepository
                     ],
                     [
                         'title' => 'التوزيع',
-                        'description' => 'توزيع التبرعات على المحتاجين من خلال فريق كسوة التطوعي و تحت اشراف االجمعيات الخيرية المعتمدة',
+                        'description' => 'توزيع التبرعات على المحتاجين من خلال فريق جرين كلوزيت التطوعي و تحت اشراف االجمعيات الخيرية المعتمدة',
                         'sort' => '5',
                         'image' => 'https://kiswame.com/images/how-we-work/button_five.png',
                     ],
@@ -1318,7 +1318,7 @@ class CountryRepository extends BaseRepository
             'default_country_id' => Country::whereCode('AE')->first()->id,
             'phone' => '+test',
             'header_title' => 'KISWA ' . $country->meta['translate']['name_en'],
-            'header_title_arabic' => 'كسوة ' . $country->meta['translate']['name_ar'],
+            'header_title_arabic' => 'جرين كلوزيت ' . $country->meta['translate']['name_ar'],
             'auto_assign' => 0,
             'calculate_points' => 1,
             'points_per_order' => 100,

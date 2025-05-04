@@ -175,7 +175,7 @@
             <tr>
             <td class="bg-primary">{{$container->id}}</td>
             <td>{{$container->code}}</td>
-            <td>{{$container->association?->meta['translate']['title_ar']??"شركة كسوة"}}</td>
+            <td>{{$container->association?->meta['translate']['title_ar']??"شركة جرين كلوزيت"}}</td>
             <td>{{$container->team->meta['translate']['name_ar']}}</td>
             <td>{{$container->country->meta['translate']['name_ar']}}</td>
             <td>{{$container->province->meta['translate']['name_ar']}}</td>

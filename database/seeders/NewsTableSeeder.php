@@ -29,27 +29,27 @@ class NewsTableSeeder extends Seeder
 
         $this->createNews(2, $UAE, [
             'translate' => [
-                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم',
+                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
                 'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
-                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم</p>',
+                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
                 'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createNews(3, $UAE, [
             'translate' => [
-                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم',
+                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
                 'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
-                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم</p>',
+                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
                 'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createNews(4, $UAE, [
             'translate' => [
-                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم',
+                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
                 'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
-                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم</p>',
+                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
                 'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
@@ -104,36 +104,36 @@ class NewsTableSeeder extends Seeder
 
         $this->createNews(1, $KSA, [
             'translate' => [
-                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم',
+                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
                 'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
-                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم</p>',
+                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
                 'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createNews(2, $KSA, [
             'translate' => [
-                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم',
+                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
                 'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
-                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم</p>',
+                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
                 'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createNews(3, $KSA, [
             'translate' => [
-                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم',
+                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
                 'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
-                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم</p>',
+                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
                 'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createNews(4, $KSA, [
             'translate' => [
-                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم',
+                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
                 'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
-                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم</p>',
+                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
                 'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
@@ -179,36 +179,36 @@ class NewsTableSeeder extends Seeder
 
         $this->createNews(1, $KW, [
             'translate' => [
-                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم',
+                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
                 'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
-                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم</p>',
+                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
                 'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createNews(2, $KW, [
             'translate' => [
-                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم',
+                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
                 'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
-                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم</p>',
+                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
                 'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createNews(3, $KW, [
             'translate' => [
-                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم',
+                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
                 'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
-                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم</p>',
+                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
                 'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createNews(4, $KW, [
             'translate' => [
-                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم',
+                'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
                 'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
-                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة كسوة " توقعان مذكرة تفاهم</p>',
+                'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
                 'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);

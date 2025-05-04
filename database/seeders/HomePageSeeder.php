@@ -194,7 +194,7 @@ class HomePageSeeder extends Seeder
                         'answer' => 'جميع أنواع الملابس والأقمشة المستعملة أو التالفة مهما كانت حالتها بالإضافة الى الشنط والأحذية والاكسسوارات والالعاب.',
                     ],
                     [
-                        'question' => 'ماهي آلية عمل كسوة؟',
+                        'question' => 'ماهي آلية عمل جرين كلوزيت؟',
                         'answer' => 'جميع أنواع الملابس والأقمشة المستعملة أو التالفة مهما كانت حالتها بالإضافة الى الشنط والأحذية والاكسسوارات والالعاب.',
                     ],
                     [
@@ -219,7 +219,7 @@ class HomePageSeeder extends Seeder
             [
                 'background' => '/images/About-us-BG.png',
                 'title' => 'ساهم معنا في التطلع لحياه افضل',
-                'description' => 'حمّل تطبيق كسوة الان',
+                'description' => 'حمّل تطبيق جرين كلوزيت الان',
                 'apps' => [
                     [
                         'link' => 'android app url',
@@ -277,25 +277,25 @@ class HomePageSeeder extends Seeder
                     ],
                     [
                         'title' => 'تأكيد الطلب',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_two.png',
                     ],
                     [
                         'title' => 'استلام التبرعات',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_three.png',
                     ],
                     [
                         'title' => 'إعادة التدوير',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_four.png',
                     ],
                     [
                         'title' => 'التوزيع',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_five.png',
                     ],
@@ -308,7 +308,7 @@ class HomePageSeeder extends Seeder
             $homePageArabicAE->id,
             [
                 'background' => '/images/benefits/benefitBG.png',
-                'title' => 'فوائد مشروع كسوة',
+                'title' => 'فوائد مشروع جرين كلوزيت',
                 'cards' => [
                     [
                         'title' => 'فوائد بيئية وحضارية',
@@ -336,7 +336,7 @@ class HomePageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $homePageArabicAE->id,
             [
-                'title' => 'عروض كسوة',
+                'title' => 'عروض جرين كلوزيت',
                 'description' => 'بمساعدة شركائنا  يمكنك الاستفادة من نقاطك في الحصول على عروض  تناسبك حياتك اليوميه',
                 'button' => [
                     'title' => 'تعرف على عروضنا',
@@ -796,7 +796,7 @@ class HomePageSeeder extends Seeder
                         'answer' => 'جميع أنواع الملابس والأقمشة المستعملة أو التالفة مهما كانت حالتها بالإضافة الى الشنط والأحذية والاكسسوارات والالعاب.',
                     ],
                     [
-                        'question' => 'ماهي آلية عمل كسوة؟',
+                        'question' => 'ماهي آلية عمل جرين كلوزيت؟',
                         'answer' => 'جميع أنواع الملابس والأقمشة المستعملة أو التالفة مهما كانت حالتها بالإضافة الى الشنط والأحذية والاكسسوارات والالعاب.',
                     ],
                     [
@@ -821,7 +821,7 @@ class HomePageSeeder extends Seeder
             [
                 'background' => '/images/About-us-BG.png',
                 'title' => 'ساهم معنا في التطلع لحياه افضل',
-                'description' => 'حمّل تطبيق كسوة الان',
+                'description' => 'حمّل تطبيق جرين كلوزيت الان',
                 'apps' => [
                     [
                         'link' => 'android app url',
@@ -879,25 +879,25 @@ class HomePageSeeder extends Seeder
                     ],
                     [
                         'title' => 'تأكيد الطلب',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_two.png',
                     ],
                     [
                         'title' => 'استلام التبرعات',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_three.png',
                     ],
                     [
                         'title' => 'إعادة التدوير',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_four.png',
                     ],
                     [
                         'title' => 'التوزيع',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_five.png',
                     ],
@@ -910,7 +910,7 @@ class HomePageSeeder extends Seeder
             $homePageArabicSA->id,
             [
                 'background' => '/images/benefits/benefitBG.png',
-                'title' => 'فوائد مشروع كسوة',
+                'title' => 'فوائد مشروع جرين كلوزيت',
                 'cards' => [
                     [
                         'title' => 'فوائد بيئية وحضارية',
@@ -938,7 +938,7 @@ class HomePageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $homePageArabicSA->id,
             [
-                'title' => 'عروض كسوة',
+                'title' => 'عروض جرين كلوزيت',
                 'description' => 'بمساعدة شركائنا  يمكنك الاستفادة من نقاطك في الحصول على عروض  تناسبك حياتك اليوميه',
                 'button' => [
                     'title' => 'تعرف على عروضنا',
@@ -1259,7 +1259,7 @@ class HomePageSeeder extends Seeder
             [
                 'image' => '/images/sliders/slider1.png',
                 'title' => 'ساهم بالحفاظ على البيئة',
-                'sub_title' => 'كسوة هو مشروع للاستفادة من فائض الملابس المستعملة وايصالها لمن هو بحاجة لها',
+                'sub_title' => 'جرين كلوزيت هو مشروع للاستفادة من فائض الملابس المستعملة وايصالها لمن هو بحاجة لها',
                 'description' => 'قم بإنشاء طلبك الآن ,وسوف يصلك مندوبنا لاستلام فائض ملابسكم',
                 'button' => [
                     [
@@ -1329,7 +1329,7 @@ class HomePageSeeder extends Seeder
                         'answer' => 'جميع أنواع الملابس والأقمشة المستعملة أو التالفة مهما كانت حالتها بالإضافة الى الشنط والأحذية والاكسسوارات والالعاب.',
                     ],
                     [
-                        'question' => 'ماهي آلية عمل كسوة؟',
+                        'question' => 'ماهي آلية عمل جرين كلوزيت؟',
                         'answer' => 'جميع أنواع الملابس والأقمشة المستعملة أو التالفة مهما كانت حالتها بالإضافة الى الشنط والأحذية والاكسسوارات والالعاب.',
                     ],
                     [
@@ -1354,7 +1354,7 @@ class HomePageSeeder extends Seeder
             [
                 'background' => '/images/About-us-BG.png',
                 'title' => 'ساهم معنا في التطلع لحياه افضل',
-                'description' => 'حمّل تطبيق كسوة الان',
+                'description' => 'حمّل تطبيق جرين كلوزيت الان',
                 'apps' => [
                     [
                         'link' => 'android app url',
@@ -1412,25 +1412,25 @@ class HomePageSeeder extends Seeder
                     ],
                     [
                         'title' => 'تأكيد الطلب',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_two.png',
                     ],
                     [
                         'title' => 'استلام التبرعات',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_three.png',
                     ],
                     [
                         'title' => 'إعادة التدوير',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_four.png',
                     ],
                     [
                         'title' => 'التوزيع',
-                        'description' => 'حمّل تطبيق كسوة الان',
+                        'description' => 'حمّل تطبيق جرين كلوزيت الان',
                         'buttons' => [],
                         'image' => '/images/how-we-work/button_five.png',
                     ],
@@ -1443,7 +1443,7 @@ class HomePageSeeder extends Seeder
             $homePageArabicKW->id,
             [
                 'background' => '/images/benefits/benefitBG.png',
-                'title' => 'فوائد مشروع كسوة',
+                'title' => 'فوائد مشروع جرين كلوزيت',
                 'cards' => [
                     [
                         'title' => 'فوائد بيئية وحضارية',
@@ -1471,7 +1471,7 @@ class HomePageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $homePageArabicKW->id,
             [
-                'title' => 'عروض كسوة',
+                'title' => 'عروض جرين كلوزيت',
                 'description' => 'بمساعدة شركائنا  يمكنك الاستفادة من نقاطك في الحصول على عروض  تناسبك حياتك اليوميه',
                 'button' => [
                     'title' => 'تعرف على عروضنا',

@@ -33,7 +33,7 @@ class OffersPageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $offersPageArabicAE->id,
             [
-                'title' => 'العروض من كسوة',
+                'title' => 'العروض من جرين كلوزيت',
                 'component_target' => TargetType::BLANK,
             ],
             SectionType::OFFER_PAGE,
@@ -61,7 +61,7 @@ class OffersPageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $offersPageArabicSA->id,
             [
-                'title' => 'العروض من كسوة',
+                'title' => 'العروض من جرين كلوزيت',
                 'component_target' => TargetType::BLANK,
             ],
             SectionType::OFFER_PAGE,
@@ -89,7 +89,7 @@ class OffersPageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $offersPageArabicKW->id,
             [
-                'title' => 'العروض من كسوة',
+                'title' => 'العروض من جرين كلوزيت',
                 'component_target' => TargetType::BLANK,
             ],
             SectionType::OFFER_PAGE,
