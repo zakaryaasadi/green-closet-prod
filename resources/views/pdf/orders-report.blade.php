@@ -265,7 +265,7 @@
                     </a>
                 </td>
                 <td>{{$order->agent?->name??''}}</td>
-                <td>{{$order->association?->meta['translate']['title_en']??"Kiswa Company"}}</td>
+                <td>{{$order->association?->meta['translate']['title_en']??"Green Closet Company"}}</td>
                 <td class="order-status">
                     @if($order->status == '1')
                         <span type="button"

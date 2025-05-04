@@ -71,7 +71,7 @@ class OrderResourceForExport extends JsonResource
     public function getAssociation($language)
     {
         if (!$this->association) {
-            return 'Kiswa Company';
+            return 'Green Closet Company';
         }
 
         return $this->association?->getTranslateValue($language, json_decode($this->country_meta, true), 'title', '');

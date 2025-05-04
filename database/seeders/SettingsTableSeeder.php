@@ -30,24 +30,24 @@ class SettingsTableSeeder extends Seeder
 
         $this->createSettingByCountry($UAE->id, $arabicLanguage->id, 0.5, 0.5, 10,
             100, 20, 0.5, 'uae-ar', 'iteamjad@gmail.com',
-            'الامارات – الفروانية – خيطان – قطعة 7', $UAE->id, '+971934922354', 'KISWA UAE', 1,
+            'الامارات – الفروانية – خيطان – قطعة 7', $UAE->id, '+971934922354', 'Green Closet UAE', 1,
             'د.إ', 'AED'
         );
 
         $this->createSettingByCountry($KSA->id, $englishLanguage->id, 0.5, 0.5, 10,
             100, 20, 0.5, 'ksa-ar', 'iteSaudi@gmail.com',
-            'السعودية – الفروانية – خيطان – قطعة 7', $KSA->id, '+971934922354', 'KISWA KSA', 0,
+            'السعودية – الفروانية – خيطان – قطعة 7', $KSA->id, '+971934922354', 'Green Closet KSA', 0,
             'ريال', 'SAR');
 
         $this->createSettingByCountry($KW->id, $arabicLanguage->id, 0.5, 0.5, 10,
             100, 20, 0.5, 'kwt-ar', 'iteKW@gmail.com',
-            'الكويت – الفروانية – خيطان – قطعة 7', $UAE->id, '+971934922354', 'KISWA KWT', 0,
+            'الكويت – الفروانية – خيطان – قطعة 7', $UAE->id, '+971934922354', 'Green Closet KWT', 0,
             'د.ك', 'KED'
         );
 
         $this->createGeneralSetting($englishLanguage->id, 0.5, 0.5, 10,
             100, 20, 0.5, 'uae-ar', 'iteSaudi@gmail.com',
-            'السعودية – الفروانية – خيطان – قطعة 7', $UAE->id, '+971934922354', 'KISWA KSA', 1);
+            'السعودية – الفروانية – خيطان – قطعة 7', $UAE->id, '+971934922354', 'Green Closet KSA', 1);
 
     }
 

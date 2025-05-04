@@ -221,7 +221,7 @@ class LocationsSettingsSeeder extends Seeder
                     ],
                     'links' => [
                         [
-                            'title' => ' All Rights Reserved .Kiswa 2022 ©',
+                            'title' => ' All Rights Reserved .Green Closet 2022 ©',
                             'link' => '',
                             'target' => '_self',
                         ],
@@ -435,7 +435,7 @@ class LocationsSettingsSeeder extends Seeder
                     ],
                     'links' => [
                         [
-                            'title' => ' All Rights Reserved .Kiswa 2022 ©',
+                            'title' => ' All Rights Reserved .Green Closet 2022 ©',
                             'link' => '',
                             'target' => '_self',
                         ],
@@ -647,7 +647,7 @@ class LocationsSettingsSeeder extends Seeder
                     ],
                     'links' => [
                         [
-                            'title' => ' All Rights Reserved .Kiswa 2022 ©',
+                            'title' => ' All Rights Reserved .Green Closet 2022 ©',
                             'link' => '',
                             'target' => '_self',
                         ],

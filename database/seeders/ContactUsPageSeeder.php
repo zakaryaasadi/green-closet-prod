@@ -32,8 +32,8 @@ class ContactUsPageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $contactUsPageEnglishAE->id,
             [
-                'title' => 'Thank you for your interest in KISWA project',
-                'description' => ' For more information and details about Kiswa, we are pleased to contact us any time',
+                'title' => 'Thank you for your interest in Green Closet project',
+                'description' => ' For more information and details about Green Closet, we are pleased to contact us any time',
                 'contact' => [
                     [
                         'title' => 'Email',
@@ -182,8 +182,8 @@ class ContactUsPageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $contactUsPageEnglishSA->id,
             [
-                'title' => 'Thank you for your interest in KISWA project',
-                'description' => ' For more information and details about Kiswa, we are pleased to contact us any time',
+                'title' => 'Thank you for your interest in Green Closet project',
+                'description' => ' For more information and details about Green Closet, we are pleased to contact us any time',
                 'contact' => [
                       [
                         'title' => 'Email',
@@ -329,8 +329,8 @@ class ContactUsPageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $contactUsPageEnglishKW->id,
             [
-                'title' => 'Thank you for your interest in KISWA project',
-                'description' => ' For more information and details about Kiswa, we are pleased to contact us any time',
+                'title' => 'Thank you for your interest in Green Closet project',
+                'description' => ' For more information and details about Green Closet, we are pleased to contact us any time',
                 'contact' => [
                     [
                         'title' => 'Email',

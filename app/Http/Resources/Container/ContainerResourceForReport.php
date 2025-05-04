@@ -47,7 +47,7 @@ class ContainerResourceForReport extends JsonResource
         $locale = AppHelper::getLanguageForMobile();
 
         if (!$this->association) {
-            return 'Kiswa Company';
+            return 'Green Closet Company';
         }
 
         return $this->association?->getTranslateValue($locale, $this->association->meta, 'title', $this->association->title);

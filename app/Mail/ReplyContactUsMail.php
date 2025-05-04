@@ -31,7 +31,7 @@ class ReplyContactUsMail extends Mailable
     {
         return $this->subject('Contact request confirmation')
             ->view('emails.contact-reply')
-            ->subject('Reply From Kiswa')
+            ->subject('Reply From Green Closet')
             ->replyTo($this->email);
     }
 }

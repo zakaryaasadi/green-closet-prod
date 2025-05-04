@@ -84,7 +84,7 @@ class CountryRepository extends BaseRepository
                     [
                         'image' => '/images/sliders/slider1.png',
                         'title' => 'Contribute now to protect the environment',
-                        'sub_title' => 'Kiswa is a project to benefit from surplus used clothes and deliver them to those who need them',
+                        'sub_title' => 'Green Closet is a project to benefit from surplus used clothes and deliver them to those who need them',
                         'description' => 'Make your order now, and our agent will reach you to receive your surplus clothes',
                         'button' => [
                             'title' => 'CTA - Button',
@@ -95,7 +95,7 @@ class CountryRepository extends BaseRepository
                     [
                         'image' => '/images/sliders/slider2.png',
                         'title' => 'Contribute now to protect the environment',
-                        'sub_title' => 'Kiswa is a project to benefit from surplus used clothes and deliver them to those who need them',
+                        'sub_title' => 'Green Closet is a project to benefit from surplus used clothes and deliver them to those who need them',
                         'description' => 'Make your order now, and our agent will reach you to receive your surplus clothes',
                         'button' => [
                             'title' => 'CTA - Button',
@@ -106,7 +106,7 @@ class CountryRepository extends BaseRepository
                     [
                         'image' => '/images/sliders/slider3.png',
                         'title' => 'Contribute now to protect the environment',
-                        'sub_title' => 'Kiswa is a project to benefit from surplus used clothes and deliver them to those who need them',
+                        'sub_title' => 'Green Closet is a project to benefit from surplus used clothes and deliver them to those who need them',
                         'description' => 'Make your order now, and our agent will reach you to receive your surplus clothes',
                         'button' => [
                             'title' => 'CTA - Button',
@@ -173,7 +173,7 @@ class CountryRepository extends BaseRepository
             [
                 'background' => '/images/About-us-BG.png',
                 'title' => 'Help us in looking forward to a better life',
-                'description' => 'Download kiswa app now',
+                'description' => 'Download Green Closet app now',
                 'apps' => [
                     [
                         'link' => 'android app url',
@@ -262,7 +262,7 @@ class CountryRepository extends BaseRepository
             $homePage->id,
             [
                 'background' => '/images/benefits/benefitBG.png',
-                'title' => 'kiswa benefits',
+                'title' => 'Green Closet benefits',
                 'cards' => [
                     [
                         'title' => 'Environmental and cultural benefits',
@@ -294,7 +294,7 @@ class CountryRepository extends BaseRepository
         PagesTableSeeder::createSection(
             $homePage->id,
             [
-                'title' => 'Kiswa offers',
+                'title' => 'Green Closet offers',
                 'description' => 'With the help of our partners, you can use your points to get offers that suit your daily life',
                 'button' => [
                     'title' => 'View our offers',
@@ -463,8 +463,8 @@ class CountryRepository extends BaseRepository
         PagesTableSeeder::createSection(
             $contactUsPage->id,
             [
-                'title' => 'Thank you for your interest in KISWA project',
-                'description' => ' For more information and details about Kiswa, we are pleased to contact us any time',
+                'title' => 'Thank you for your interest in Green Closet project',
+                'description' => ' For more information and details about Green Closet, we are pleased to contact us any time',
                 'contact' => [
                     [
                         'title' => 'Email',
@@ -634,7 +634,7 @@ class CountryRepository extends BaseRepository
         PagesTableSeeder::createSection(
             $offersPage->id,
             [
-                'title' => 'Offers from KISWA',
+                'title' => 'Offers from Green Closet',
                 'component_target' => TargetType::BLANK,
             ],
             SectionType::OFFER_PAGE,
@@ -811,7 +811,7 @@ class CountryRepository extends BaseRepository
                     ],
                     'links' => [
                         [
-                            'title' => ' All Rights Reserved .Kiswa 2022 ©',
+                            'title' => ' All Rights Reserved .Green Closet 2022 ©',
                             'link' => 'link',
                             'target' => '_self',
                         ],
@@ -1247,7 +1247,7 @@ class CountryRepository extends BaseRepository
                     ],
                     [
                         'title' => 'Distribution',
-                        'description' => 'Distributing donations to the needy through the Kiswa volunteer team and under the supervision of approved charities',
+                        'description' => 'Distributing donations to the needy through the Green Closet volunteer team and under the supervision of approved charities',
                         'sort' => '5',
                         'image' => 'https://green-closet.com/images/how-we-work/button_five.png',
                     ],
@@ -1317,7 +1317,7 @@ class CountryRepository extends BaseRepository
             'location' => 'test - test - test',
             'default_country_id' => Country::whereCode('AE')->first()->id,
             'phone' => '+test',
-            'header_title' => 'KISWA ' . $country->meta['translate']['name_en'],
+            'header_title' => 'Green Closet ' . $country->meta['translate']['name_en'],
             'header_title_arabic' => 'جرين كلوزيت ' . $country->meta['translate']['name_ar'],
             'auto_assign' => 0,
             'calculate_points' => 1,

@@ -30,27 +30,27 @@ class BlogTableSeeder extends Seeder
         $this->createBlog($UAE, [
             'translate' => [
                 'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createBlog($UAE, [
             'translate' => [
                 'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createBlog($UAE, [
             'translate' => [
                 'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
@@ -58,27 +58,27 @@ class BlogTableSeeder extends Seeder
         $this->createBlog($UAE, [
             'translate' => [
                 'title_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createBlog($UAE, [
             'translate' => [
                 'title_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createBlog($UAE, [
             'translate' => [
                 'title_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
@@ -95,9 +95,9 @@ class BlogTableSeeder extends Seeder
         $this->createBlog($UAE, [
             'translate' => [
                 'title_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
@@ -105,46 +105,36 @@ class BlogTableSeeder extends Seeder
         $this->createBlog($KSA, [
             'translate' => [
                 'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createBlog($KSA, [
             'translate' => [
                 'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createBlog($KSA, [
             'translate' => [
                 'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createBlog($KSA, [
             'translate' => [
                 'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
-            ],
-        ]);
-
-
-        $this->createBlog($KSA, [
-            'translate' => [
-                'title_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
-                'description_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
@@ -152,9 +142,9 @@ class BlogTableSeeder extends Seeder
         $this->createBlog($KSA, [
             'translate' => [
                 'title_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
@@ -162,54 +152,64 @@ class BlogTableSeeder extends Seeder
         $this->createBlog($KSA, [
             'translate' => [
                 'title_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
+            ],
+        ]);
+
+
+        $this->createBlog($KSA, [
+            'translate' => [
+                'title_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
+                'description_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createBlog($KSA, [
             'translate' => [
                 'title_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createBlog($KW, [
             'translate' => [
                 'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createBlog($KW, [
             'translate' => [
                 'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createBlog($KW, [
             'translate' => [
                 'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createBlog($KW, [
             'translate' => [
                 'title_ar' => '" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => '<p>" الخيرية لصعوبات التعلم "، و" مؤسسة جرين كلوزيت " توقعان مذكرة تفاهم</p>',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
@@ -217,9 +217,9 @@ class BlogTableSeeder extends Seeder
         $this->createBlog($KW, [
             'translate' => [
                 'title_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
@@ -227,27 +227,27 @@ class BlogTableSeeder extends Seeder
         $this->createBlog($KW, [
             'translate' => [
                 'title_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createBlog($KW, [
             'translate' => [
                 'title_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 
         $this->createBlog($KW, [
             'translate' => [
                 'title_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'title_en' => '"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding',
+                'title_en' => '"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding',
                 'description_ar' => 'وقعت الجمعية الخيرية لصعوبات التعلم امس الأول. الأربعاء مذكرة تفاهم مع مؤسسة ...',
-                'description_en' => '<h1>"Charity for Learning Disabilities" and "Kiswa Foundation" sign a memorandum of understanding</h1>',
+                'description_en' => '<h1>"Charity for Learning Disabilities" and "Green Closet Foundation" sign a memorandum of understanding</h1>',
             ],
         ]);
 

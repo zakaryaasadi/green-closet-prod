@@ -19,7 +19,7 @@ class OffersPageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $offersPageEnglishAE->id,
             [
-                'title' => 'Offers from KISWA',
+                'title' => 'Offers from Green Closet',
                 'component_target' => TargetType::BLANK,
             ],
             SectionType::OFFER_PAGE,
@@ -47,7 +47,7 @@ class OffersPageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $offersPageEnglishSA->id,
             [
-                'title' => 'Offers from KISWA',
+                'title' => 'Offers from Green Closet',
                 'component_target' => TargetType::BLANK,
             ],
             SectionType::OFFER_PAGE,
@@ -75,7 +75,7 @@ class OffersPageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $offersPageEnglishKW->id,
             [
-                'title' => 'Offers from KISWA',
+                'title' => 'Offers from Green Closet',
                 'component_target' => TargetType::BLANK,
             ],
             SectionType::OFFER_PAGE,

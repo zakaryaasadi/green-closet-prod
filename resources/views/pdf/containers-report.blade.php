@@ -244,7 +244,7 @@
 
                 <td class="bg-primary">{{$container->id}}</td>
                 <td>{{$container->code}}</td>
-                <td>{{$container->association?->meta['translate']['title_en']??"Kiswa Company"}}</td>
+                <td>{{$container->association?->meta['translate']['title_en']??"Green Closet Company"}}</td>
                 <td>{{$container->team->meta['translate']['name_en']}}</td>
                 <td>{{$container->country->meta['translate']['name_en']}}</td>
                 <td>{{$container->province->meta['translate']['name_en']}}</td>

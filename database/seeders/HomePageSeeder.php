@@ -446,7 +446,7 @@ class HomePageSeeder extends Seeder
                     [
                         'image' => '/images/sliders/slider1.png',
                         'title' => 'Contribute now to protect the environment',
-                        'sub_title' => 'Kiswa is a project to benefit from surplus used clothes and deliver them to those who need them',
+                        'sub_title' => 'Green Closet is a project to benefit from surplus used clothes and deliver them to those who need them',
                         'description' => 'Make your order now, and our agent will reach you to receive your surplus clothes',
                         'button' => [
                             'title' => 'CTA - Button',
@@ -457,7 +457,7 @@ class HomePageSeeder extends Seeder
                     [
                         'image' => '/images/sliders/slider2.png',
                         'title' => 'Contribute now to protect the environment',
-                        'sub_title' => 'Kiswa is a project to benefit from surplus used clothes and deliver them to those who need them',
+                        'sub_title' => 'Green Closet is a project to benefit from surplus used clothes and deliver them to those who need them',
                         'description' => 'Make your order now, and our agent will reach you to receive your surplus clothes',
                         'button' => [
                             'title' => 'CTA - Button',
@@ -468,7 +468,7 @@ class HomePageSeeder extends Seeder
                     [
                         'image' => '/images/sliders/slider3.png',
                         'title' => 'Contribute now to protect the environment',
-                        'sub_title' => 'Kiswa is a project to benefit from surplus used clothes and deliver them to those who need them',
+                        'sub_title' => 'Green Closet is a project to benefit from surplus used clothes and deliver them to those who need them',
                         'description' => 'Make your order now, and our agent will reach you to receive your surplus clothes',
                         'button' => [
                             'title' => 'CTA - Button',
@@ -562,7 +562,7 @@ class HomePageSeeder extends Seeder
             [
                 'background' => '/images/About-us-BG.png',
                 'title' => 'Help us in looking forward to a better life',
-                'description' => 'Download kiswa app now',
+                'description' => 'Download Green Closet app now',
                 'apps' => [
                     [
                         'link' => 'android app url',
@@ -651,7 +651,7 @@ class HomePageSeeder extends Seeder
             $homePageEnglishAE->id,
             [
                 'background' => '/images/benefits/benefitBG.png',
-                'title' => 'kiswa benefits',
+                'title' => 'Green Closet benefits',
                 'cards' => [
                     [
                         'title' => 'Environmental and cultural benefits',
@@ -679,7 +679,7 @@ class HomePageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $homePageEnglishAE->id,
             [
-                'title' => 'Kiswa offers',
+                'title' => 'Green Closet offers',
                 'description' => 'With the help of our partners, you can use your points to get offers that suit your daily life',
                 'button' => [
                     'title' => 'View our offers',
@@ -1009,7 +1009,7 @@ class HomePageSeeder extends Seeder
                     'text' => 'Play video',
                 ],
                 'title' => 'Contribute now to protect the environment',
-                'sub_title' => 'Kiswa is a project to benefit from surplus used clothes and deliver them to those who need them',
+                'sub_title' => 'Green Closet is a project to benefit from surplus used clothes and deliver them to those who need them',
                 'description' => 'Make your order now, and our agent will reach you to receive your surplus clothes',
                 'button' => [
                     'title' => 'CTA - Button',
@@ -1074,7 +1074,7 @@ class HomePageSeeder extends Seeder
             [
                 'background' => '/images/About-us-BG.png',
                 'title' => 'Help us in looking forward to a better life',
-                'description' => 'Download kiswa app now',
+                'description' => 'Download Green Closet app now',
                 'apps' => [
                     [
                         'link' => 'android app url',
@@ -1163,7 +1163,7 @@ class HomePageSeeder extends Seeder
             $homePageEnglishSA->id,
             [
                 'background' => '/images/benefits/benefitBG.png',
-                'title' => 'kiswa benefits',
+                'title' => 'Green Closet benefits',
                 'cards' => [
                     [
                         'title' => 'Environmental and cultural benefits',
@@ -1191,7 +1191,7 @@ class HomePageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $homePageEnglishSA->id,
             [
-                'title' => 'Kiswa offers',
+                'title' => 'Green Closet offers',
                 'description' => 'With the help of our partners, you can use your points to get offers that suit your daily life',
                 'button' => [
                     'title' => 'View our offers',
@@ -1539,7 +1539,7 @@ class HomePageSeeder extends Seeder
             [
                 'image' => '/images/sliders/slider1.png',
                 'title' => 'Contribute now to protect the environment',
-                'sub_title' => 'Kiswa is a project to benefit from surplus used clothes and deliver them to those who need them',
+                'sub_title' => 'Green Closet is a project to benefit from surplus used clothes and deliver them to those who need them',
                 'description' => 'Make your order now, and our agent will reach you to receive your surplus clothes',
                 'button' => [
                     [
@@ -1641,7 +1641,7 @@ class HomePageSeeder extends Seeder
             [
                 'background' => '/images/About-us-BG.png',
                 'title' => 'Help us in looking forward to a better life',
-                'description' => 'Download kiswa app now',
+                'description' => 'Download Green Closet app now',
                 'apps' => [
                     [
                         'link' => 'android app url',
@@ -1730,7 +1730,7 @@ class HomePageSeeder extends Seeder
             $homePageEnglishKW->id,
             [
                 'background' => '/images/benefits/benefitBG.png',
-                'title' => 'kiswa benefits',
+                'title' => 'Green Closet benefits',
                 'cards' => [
                     [
                         'title' => 'Environmental and cultural benefits',
@@ -1758,7 +1758,7 @@ class HomePageSeeder extends Seeder
         PagesTableSeeder::createSection(
             $homePageEnglishKW->id,
             [
-                'title' => 'Kiswa offers',
+                'title' => 'Green Closet offers',
                 'description' => 'With the help of our partners, you can use your points to get offers that suit your daily life',
                 'button' => [
                     'title' => 'View our offers',
