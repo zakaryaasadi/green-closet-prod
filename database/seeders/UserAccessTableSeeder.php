@@ -21,10 +21,10 @@ class UserAccessTableSeeder extends Seeder
         $UAE = Country::whereCode('AE')->first();
         $KSA = Country::whereCode('SA')->first();
 
-        $orderManager = User::whereEmail('order@kiswa.com')->first();
-        $admin = User::whereEmail('super-admin@kiswa.com')->first();
-        $newsManager = User::whereEmail('news@kiswa.com')->first();
-        $eventsManager = User::whereEmail('event@kiswa.com')->first();
+        $orderManager = User::whereEmail('order@green-closet.com')->first();
+        $admin = User::whereEmail('super-admin@green-closet.com')->first();
+        $newsManager = User::whereEmail('news@green-closet.com')->first();
+        $eventsManager = User::whereEmail('event@green-closet.com')->first();
 
 
         UserAccess::create([

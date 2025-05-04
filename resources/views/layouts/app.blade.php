@@ -4,7 +4,7 @@
     $allLocationSettings = LocationSettings::all();
     $locationSetting = AppHelper::getLocationSettings();
     $settings=Setting::where(['country_id' => $locationSetting->country_id])->first()??Setting::where(['country_id' => null])->first();
-    $site_name = 'Kiswa';
+    $site_name = 'Green Closet';
     if ($locationSetting->language->code == 'ar'){
         $title = $settings?->header_title_arabic;
         $site_name = 'جرين كلوزيت';

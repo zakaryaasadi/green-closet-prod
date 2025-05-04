@@ -16,7 +16,7 @@ class PointsTableSeeder extends Seeder
      */
     public function run()
     {
-        $user = User::where('email', 'user@kiswa.com')->first();
+        $user = User::where('email', 'user@green-closet.com')->first();
 
         Point::create([
             'user_id' => $user->id,

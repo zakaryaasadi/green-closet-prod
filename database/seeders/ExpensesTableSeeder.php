@@ -17,7 +17,7 @@ class ExpensesTableSeeder extends Seeder
      */
     public function run()
     {
-        $association_id = Association::whereUserId(User::whereEmail('association@kiswa.com')->first()->id)->first()->id;
+        $association_id = Association::whereUserId(User::whereEmail('association@green-closet.com')->first()->id)->first()->id;
 
         $this->createExpense(5, 52, 15, 15, 11, 600, '2022-10-10 10:00:00', ExpenseStatus::PAYED, $association_id);
 

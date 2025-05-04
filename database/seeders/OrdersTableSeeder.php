@@ -25,12 +25,12 @@ class OrdersTableSeeder extends Seeder
      */
     public function run()
     {
-        $user = User::where('email', 'user@kiswa.com')->first();
-        $amjad = User::where('email', 'amjad@kiswa.com')->first();
+        $user = User::where('email', 'user@green-closet.com')->first();
+        $amjad = User::where('email', 'amjad@green-closet.com')->first();
         $country = Country::whereCode('AE')->first();
         $countryKW = Country::whereCode('KW')->first();
-        $agent = User::where('email', 'agent@kiswa.com')->first();
-        $association = Association::whereUserId(User::whereEmail('association@kiswa.com')->first()->id)->first();
+        $agent = User::where('email', 'agent@green-closet.com')->first();
+        $association = Association::whereUserId(User::whereEmail('association@green-closet.com')->first()->id)->first();
 
 
         $test = Province::create([

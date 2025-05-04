@@ -28,7 +28,7 @@ class UsersTableSeeder extends Seeder
 
         $root = $this->createUser(
             'super-admin',
-            'super-admin@kiswa.com',
+            'super-admin@green-closet.com',
             '+971554835477',
             UserType::ADMIN,
         );
@@ -36,7 +36,7 @@ class UsersTableSeeder extends Seeder
 
         $admin = $this->createUser(
             'admin',
-            'admin@kiswa.com',
+            'admin@green-closet.com',
             '+971',
             UserType::ADMIN
         );
@@ -44,21 +44,21 @@ class UsersTableSeeder extends Seeder
 
         $this->createUser(
             'user',
-            'user@kiswa.com',
+            'user@green-closet.com',
             '+971554838677',
             UserType::CLIENT
         );
 
         $this->createUser(
             'amjad',
-            'amjad@kiswa.com',
+            'amjad@green-closet.com',
             '+971554838600',
             UserType::CLIENT
         );
 
         $agent = $this->createUser(
             'agent',
-            'agent@kiswa.com',
+            'agent@green-closet.com',
             '+971554838675',
             UserType::AGENT
         );
@@ -75,7 +75,7 @@ class UsersTableSeeder extends Seeder
         ]);
         $agent1 = $this->createUser(
             'ramez',
-            'ramez@kiswa.com',
+            'ramez@green-closet.com',
             '+971585561707',
             UserType::CLIENT
         );
@@ -90,7 +90,7 @@ class UsersTableSeeder extends Seeder
         ]);
         $agent2 = $this->createUser(
             'izat',
-            'izat@kiswa.com',
+            'izat@green-closet.com',
             '+9715548386113',
             UserType::AGENT
         );
@@ -106,56 +106,56 @@ class UsersTableSeeder extends Seeder
 
         $this->createUser(
             'association',
-            'association@kiswa.com',
+            'association@green-closet.com',
             '+971554838611',
             UserType::ASSOCIATION
         );
 
         $this->createUser(
             'association',
-            'association2@kiswa.com',
+            'association2@green-closet.com',
             '+971554838612',
             UserType::ASSOCIATION
         );
 
         $this->createUser(
             'association',
-            'association3@kiswa.com',
+            'association3@green-closet.com',
             '+971554838613',
             UserType::ASSOCIATION
         );
 
         $this->createUser(
             'association',
-            'association4@kiswa.com',
+            'association4@green-closet.com',
             '+9715548386141',
             UserType::ASSOCIATION
         );
 
         $this->createUser(
             'association',
-            'association5@kiswa.com',
+            'association5@green-closet.com',
             '+9715548386151',
             UserType::ASSOCIATION
         );
 
         $this->createUser(
             'association',
-            'association6@kiswa.com',
+            'association6@green-closet.com',
             '+9715548386161',
             UserType::ASSOCIATION
         );
 
         $this->createUser(
             'association',
-            'association7@kiswa.com',
+            'association7@green-closet.com',
             '+9715548386110',
             UserType::ASSOCIATION
         );
 
         $editor = $this->createUser(
             'amjad',
-            'order@kiswa.com',
+            'order@green-closet.com',
             '+971554838123',
             UserType::ADMIN
         );
@@ -163,7 +163,7 @@ class UsersTableSeeder extends Seeder
 
         $editor = $this->createUser(
             'nour',
-            'news@kiswa.com',
+            'news@green-closet.com',
             '+971554838144',
             UserType::ADMIN
         );
@@ -171,7 +171,7 @@ class UsersTableSeeder extends Seeder
 
         $editor = $this->createUser(
             'Zinab',
-            'event@kiswa.com',
+            'event@green-closet.com',
             '+971554838222',
             UserType::ADMIN
         );

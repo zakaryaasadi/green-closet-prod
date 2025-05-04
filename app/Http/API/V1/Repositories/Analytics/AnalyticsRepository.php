@@ -570,7 +570,7 @@ class AnalyticsRepository extends BaseRepository
             ->where('country_id', $countryId)->count();
 
         $containerResult[] = [
-            'association' => 'Kiswa Company',
+            'association' => 'Green Closet Company',
             'containers_count' => $kiswaContainers,
         ];
 

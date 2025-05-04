@@ -32,8 +32,8 @@ class LocationsTableSeeder extends Seeder
                 [55.367073, 25.000318],
             ]], ]));
         $location = $this->createLocation('Abu Dhabi', 'c5328a', $damac, $teamUAE->id);
-        $location->agents()->save(User::whereEmail('ramez@kiswa.com')->first());
-        $location->agents()->save(User::whereEmail('izat@kiswa.com')->first());
+        $location->agents()->save(User::whereEmail('ramez@green-closet.com')->first());
+        $location->agents()->save(User::whereEmail('izat@green-closet.com')->first());
 
 
         $dubai = Polygon::fromJson(GeoJson::jsonUnserialize([
@@ -56,7 +56,7 @@ class LocationsTableSeeder extends Seeder
                 [55.427681, 25.24212],
             ]], ]));
         $location = $this->createLocation('Dubai', '2816ff', $dubai, $teamUAE->id);
-        $location->agents()->save(User::whereEmail('agent@kiswa.com')->first());
+        $location->agents()->save(User::whereEmail('agent@green-closet.com')->first());
 
     }
 

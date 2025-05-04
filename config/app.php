@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Kiswa'),
+    'name' => env('APP_NAME', 'Green Closet'),
 
     'write_docs_from_tests' => (bool)env('WRITE_DOCS_FROM_TESTS', false),
 

@@ -20,12 +20,12 @@ class AssociationTableSeeder extends Seeder
         $UAE = Country::whereCode('AE')->first()->id;
         $KSA = Country::whereCode('SA')->first()->id;
         $KW = Country::whereCode('KW')->first()->id;
-        $user = User::whereEmail('association@kiswa.com')->first()->id;
-        $user2 = User::whereEmail('association2@kiswa.com')->first()->id;
-        $user3 = User::whereEmail('association3@kiswa.com')->first()->id;
-        $user4 = User::whereEmail('association4@kiswa.com')->first()->id;
-        $user5 = User::whereEmail('association5@kiswa.com')->first()->id;
-        $user6 = User::whereEmail('association6@kiswa.com')->first()->id;
+        $user = User::whereEmail('association@green-closet.com')->first()->id;
+        $user2 = User::whereEmail('association2@green-closet.com')->first()->id;
+        $user3 = User::whereEmail('association3@green-closet.com')->first()->id;
+        $user4 = User::whereEmail('association4@green-closet.com')->first()->id;
+        $user5 = User::whereEmail('association5@green-closet.com')->first()->id;
+        $user6 = User::whereEmail('association6@green-closet.com')->first()->id;
 
         $this->createAssociation('https://albir.sa/', $UAE, [
             'translate' => [

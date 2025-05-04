@@ -44,7 +44,7 @@ class ContainerTableSeeder extends Seeder
         $districtKSA = District::whereCountryId($KSA)->first();
         $neighborhoodKSA = Neighborhood::whereCountryId($KSA)->first();
         $streetKSA = Street::whereCountryId($KSA)->first();
-        $association_id = Association::whereUserId(User::whereEmail('association@kiswa.com')->first()->id)->first()->id;
+        $association_id = Association::whereUserId(User::whereEmail('association@green-closet.com')->first()->id)->first()->id;
         $agent = User::whereType(UserType::AGENT)->first();
         $point = new Point('25.745601', '55.976392');
         $point2 = new Point('23.975211', '56.863206');
