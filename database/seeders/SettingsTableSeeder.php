@@ -84,7 +84,7 @@ class SettingsTableSeeder extends Seeder
             'secret_key' => '2SxbqoyGQgrQNRM2MgwzH6H3hvdFOFenm7nsW2mX',
             'finish_work' => '04:00',
             'work_shift' => DischargeShift::EVENING_SHIFT,
-            'favicon' => 'https://kiswame.com/storage/all_media/favicon (2)_20230403102147000.png',
+            'favicon' => 'https://green-closet.com/storage/all_media/favicon (2)_20230403102147000.png',
             'header_title_arabic' => 'جرين كلوزيت',
         ]);
     }
@@ -125,7 +125,7 @@ class SettingsTableSeeder extends Seeder
             'start_work' => '12:00',
             'finish_work' => '04:00',
             'work_shift' => DischargeShift::EVENING_SHIFT,
-            'favicon' => 'https://kiswame.com/storage/all_media/favicon (2)_20230403102147000.png',
+            'favicon' => 'https://green-closet.com/storage/all_media/favicon (2)_20230403102147000.png',
             'header_title_arabic' => 'جرين كلوزيت',
         ]);
     }

@@ -151,7 +151,7 @@ class HomePageSeeder extends Seeder
                         'sub_title' => 'sub_title slider1 ',
                     ],
                     [
-                        'src' => 'https://kiswame.com/storage/all_media/croppedImage_20230131132111000.png',
+                        'src' => 'https://green-closet.com/storage/all_media/croppedImage_20230131132111000.png',
                         'title' => 'title slider 2',
                         'sub_title' => 'sub_title slider 2 ',
                     ],
@@ -493,7 +493,7 @@ class HomePageSeeder extends Seeder
                         'sub_title' => 'sub_title slider1 ',
                     ],
                     [
-                        'src' => 'https://kiswame.com/storage/all_media/croppedImage_20230131132111000.png',
+                        'src' => 'https://green-closet.com/storage/all_media/croppedImage_20230131132111000.png',
                         'title' => 'title slider 2',
                         'sub_title' => 'sub_title slider 2 ',
                     ],
@@ -753,7 +753,7 @@ class HomePageSeeder extends Seeder
                         'sub_title' => 'sub_title slider1 ',
                     ],
                     [
-                        'src' => 'https://kiswame.com/storage/all_media/croppedImage_20230131132111000.png',
+                        'src' => 'https://green-closet.com/storage/all_media/croppedImage_20230131132111000.png',
                         'title' => 'title slider 2',
                         'sub_title' => 'sub_title slider 2 ',
                     ],

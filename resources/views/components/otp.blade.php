@@ -45,7 +45,7 @@
 <div class="signin p-0" id="otp-dialog">
     <div
         class="redirectMessage w-100 pt-4  d-flex align-items-center justify-content-center flex-column overflow-hidden d-none gap-5">
-        <img src="https://kiswame.com/images/logo.png" alt="logo" class="img-fluid "/>
+        <img src="https://green-closet.com/images/logo.png" alt="logo" class="img-fluid "/>
 
         <div class="text-center gap-5 d-flex flex-column align-items-center justify-content-around">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"

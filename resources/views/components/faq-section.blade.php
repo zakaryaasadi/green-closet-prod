@@ -7,7 +7,7 @@
 
 <div id="faqs-page" class="position-relative d-flex  align-items-center justify-content-center">
     <div class="wave-top position-absolute top-0 start-0">
-        <img loading="lazy" data-src="https://kiswame.com/images/mask-faqs.png" alt="" class="w-100">
+        <img loading="lazy" data-src="https://green-closet.com/images/mask-faqs.png" alt="" class="w-100">
 
     </div>
     <div class="third-section overflow-hidden w-100 py-5 py-lg-0">

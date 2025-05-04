@@ -69,7 +69,7 @@
                             class="redirectMessage-1  w-100 pt-0 h-100  d-flex align-items-center justify-content-evenly
                         flex-column overflow-hidden d-none   position-absolute start-0 top-0 bg-white"
                             style="z-index: 9;border-radius: 15px;">
-                            <img src="https://kiswame.com/images/logo.png" alt="logo" class="img-fluid "/>
+                            <img src="https://green-closet.com/images/logo.png" alt="logo" class="img-fluid "/>
                             <div class="text-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
                                      class="bi bi-check2-circle display-1 text-success" viewBox="0 0 16 16">
