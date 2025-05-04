@@ -1,0 +1,72 @@
+#news-details-page .image-section{
+    width: 100%;
+    height: 520px;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    display: none;
+}
+#news-details-page .swiper-button-next, #news-details-page .swiper-button-prev {
+    width: 64px !important;
+    height: 64px !important;
+}
+
+#news-details-page .swiper .swiper-slide img ,
+#news-details-page .swiper .swiper-slide p {
+    transition: .3s all ease-in-out;
+}
+#news-details-page .swiper .swiper-slide:hover img {
+    position: relative;
+}
+#news-details-page .swiper .swiper-slide:hover img:after{
+
+}
+#news-details-page .swiper .swiper-slide:hover img {
+    transform: scale(1.3);
+
+    transform-origin: left;
+}
+#news-details-page .swiper .swiper-slide {
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.mySwiper-in-events-details-page .swiper-button-next:after, .mySwiper-in-events-details-page .swiper-button-prev:after {
+    display: none;
+}
+.mySwiper-in-events-details-page .swiper-button-next, .mySwiper-in-events-details-page .swiper-button-prev
+{
+    width: 64px !important;
+    height: 64px !important;
+
+}
+
+.baguetteBox-button#next-button,
+.baguetteBox-button#previous-button{
+    display: flex !important;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    #news-details-page .image-section{
+        height: 300px;
+    }
+
+    #news-details-page {
+        height: fit-content;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+    #news-details-page .swiper .swiper-slide img{
+        height: 180px;
+        max-height: 180px;
+        object-fit: cover;
+    }
+
+}

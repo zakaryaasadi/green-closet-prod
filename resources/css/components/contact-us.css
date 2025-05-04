@@ -1,0 +1,71 @@
+.contact-us-page {
+    min-height: calc(100vh - 60px);
+    height: fit-content;
+    background-image: url("/images/contact-us-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body{
+    overflow-x: hidden;
+}
+.main-container {
+    background: #EEFBFF;
+    border-radius: 12px;
+}
+.main-container .row .col-12:first-child .box {
+position: relative;
+    background: #00A3ED;
+    border-radius: 12px;
+
+}
+.main-container .row .col-12:first-child .box .svg-1 {
+    position: absolute;
+    bottom: 13.45%;
+    right: 44.93%;
+}
+
+.main-container .row .col-12:first-child .box .svg-2 {
+   position: absolute;
+    right: 62.23%;
+    top: 50.22%;
+    bottom: 49.96%;
+}
+.contact-us-page .info-icon, .contact-us-page .field-icon {
+    width: 33px;
+    height: 24px;
+    object-fit: scale-down;
+}
+
+.contact-us-page .heading-contact-form {
+    background: #008451;
+}
+#map{
+    pointer-events: none;
+    filter: grayscale(1);
+}
+.contact-us-page iframe{    filter: grayscale(1);}
+@media screen and (min-width: 991px) {
+    .contact-us-page .contact-us-map {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .contact-us-map {
+        height: 400px !important;
+        margin: 20px 0;
+    }
+}
+
+#contact-form img,
+.info-icon
+{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    max-width: 25px;
+}

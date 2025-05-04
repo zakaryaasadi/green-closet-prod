@@ -1,0 +1,1 @@
+(()=>{var e=document.querySelector(".our-partners-home");window.addEventListener("scroll",(function(t){if(window.scrollY+500>=e.offsetTop){var n=document.querySelectorAll(".count");n.forEach((function(e){!function t(){var n=+e.getAttribute("data-target"),r=+e.innerText,o=n/800;r<n?(e.innerText=Math.ceil(r+o),setInterval(t,1e3)):e.innerText=n}()}))}}))})();

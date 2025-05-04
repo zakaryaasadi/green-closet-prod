@@ -1,0 +1,113 @@
+.offers-section {
+    min-height: 640px;
+    background-image: url("/images/benefits/Union.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 15px;
+}
+
+.offers-section .swiper-slide,
+.offers-section .swiper .swiper-wrapper .col-12 {
+    height: 460px !important;
+}
+
+.offers-section .swiper-wrapper {
+    height: fit-content !important;
+
+}
+
+.swiper .box-image img {
+    border-radius: 5px;
+    transition: .3s all ease-in-out;
+
+}
+
+.swiper .swiper-slide .box-image:hover img,
+.swiper .col-12 .box-image:hover img{
+    transition: .3s all ease-in-out;
+
+}
+
+.swiper .swiper-slide .box-image span,
+.swiper .col-12 .box-image span{
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 16px;
+    left: 16px;
+    clip-path: inset(-100vw -100vw -100vw 0);
+    transform: rotate(180deg);
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper .swiper-slide .box-image .line,
+.swiper .col-12 .box-image .line {
+    top: 40%;
+    right: -64px;
+
+    overflow: hidden;
+}
+
+.swiper .swiper-slide .box-image .line,
+.swiper .col-12 .box-image .line svg.svg-1 path {
+
+    stroke-dasharray: 15;
+    animation: dash 20s linear infinite;
+    transition: .3s all ease-in-out;
+    d: path("M -11.0542 2.44434 L 507.5942 2.44414");
+}
+
+@media screen and (max-width: 768px) {
+    .offers-section .swiper-slide,
+    .offers-section .swiper .swiper-wrapper .col-12 {
+        height: 350px !important;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .swiper .swiper-slide .box-image .line,
+    .swiper .col-12 .box-image .line {
+        display: none;
+    }
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 50;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1400px) {
+    .offers-section .swiper-slide,
+    .offers-section .swiper .swiper-wrapper .col-12 {
+        height: 400px;
+    }
+}
+
+.content-offer {
+    overflow: auto;
+    background-color: rgba(11, 161, 208, 0.39);
+    display: inline-grid;
+    height: 160px;
+    text-align: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 991px) {
+    /*.swiper .box-image img {*/
+    /*    object-fit: contain;*/
+    /*}*/
+
+    .offers-section {
+        height: fit-content !important;
+    }
+
+    .content-offer {
+        height: 120px;
+    }
+}

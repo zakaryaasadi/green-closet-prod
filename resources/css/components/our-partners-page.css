@@ -1,0 +1,28 @@
+.our-partners-page .card-partner img {
+    transition: .3s all ease-in-out;
+        object-fit: contain;
+    filter: grayscale(1);
+}
+.our-partners-page .card-partner:hover img{
+    filter: grayscale(0);
+    transition: .3s all ease-in-out;
+}
+.our-partners-page .card-partner {
+    height: 135px;
+    max-height: 135px;
+    background: #F3F6FF;
+    border-radius: 5px;
+}
+.our-partners-page  .btn.join-us{
+    width: 274px;
+    background: #383838;
+
+}
+@media screen and (min-width: 768px){
+    .our-partners-page {
+        min-height: calc(100vh - 50px);
+        display: flex;
+        align-items: center;
+
+    }
+}

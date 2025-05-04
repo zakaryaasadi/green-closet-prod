@@ -1,0 +1,17 @@
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/*.log
+/.env
+.env.*
+Homestead.yaml
+Homestead.json
+/.idea
+/.vscode
+/.phpunit.result.cache
+.phpunit.result.cache
+/public/hot
+/public/mix-manifest.json
+/public/storage
+/storage/debugbar

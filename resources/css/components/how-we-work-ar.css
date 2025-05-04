@@ -1,0 +1,17 @@
+
+
+
+.container-box h1:before{
+    left: auto;
+    right: -15px;
+}
+.how-we-work .boxs {
+    border-left: 0;
+    border-right: 3px dashed #008451;
+}
+/* .rotate-image {*/
+/*    rotate: y 180deg;*/
+/*}*/
+.container-box h1:before {
+    font-family: "Poppins" !important;
+}

@@ -1,0 +1,49 @@
+.image-box {
+    height: auto;
+    width: 100%;
+}
+
+.card-container {
+    min-height: 450px;
+}
+.kiswa-benefits-home{
+    height: fit-content;
+}
+.kiswa-benefits-home{
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.kiswa-benefits-home .secound-section {
+    min-height: 700px;
+}
+
+@media screen and (min-width: 1440px){
+    .kiswa-benefits-home  .first-section {
+        height: 1300px;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+.kiswa-benefits-home .secound-section{
+    padding: 100px 0;
+    height: fit-content;
+}
+    .kiswa-benefits-home .mask img {object-fit: cover}
+
+}
+@media screen and (max-width: 576px) {
+    .card-container {
+        height: fit-content;
+    }
+    .card-container img {
+        position: relative !important;
+        object-fit: cover;
+    }
+    .card-container .card {
+        padding-bottom: 0 !important;
+    }
+
+}
+

@@ -1,0 +1,1 @@
+(()=>{var e=document.querySelectorAll(".scene *");scene=document.querySelector(".scene");var c=setInterval((function(){"complete"===document.readyState&&(clearInterval(c),e.forEach((function(e){e.classList.add("slide-out-bck-center")})),setTimeout((function(){scene.classList.add("opacity-0"),scene.remove()}),800))}),100)})();

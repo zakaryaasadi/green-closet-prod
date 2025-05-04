@@ -1,0 +1,8 @@
+Sitemap: https://www.kiswame.com/sitemaps/index.xml
+User-agent: *
+Disallow: */auth/login
+Disallow: */auth/register
+Disallow: */dashboard
+Disallow: */dashboard/*
+Disallow: */create-order
+Disallow: */association/*

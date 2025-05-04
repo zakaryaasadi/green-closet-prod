@@ -1,0 +1,12 @@
+#faqs-page .accordionTitle:before, #faqs-page .accordion__Heading:before {
+    margin-left: 25px;
+    right: auto;
+    left: 0;
+}
+#faqs-page .accordion p {
+    padding-right: 30px;
+}
+
+
+
+

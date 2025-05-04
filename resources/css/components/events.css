@@ -1,0 +1,20 @@
+/*body {*/
+/*    background: red !important;*/
+/*}*/
+
+.title-description {
+    text-align: center;
+}
+.events-page{
+    background-image:url("/images/bg-events.png");
+    background-size: cover;
+    background-position: center;
+}.events-page .box-image{
+    transition: .3s all ease-in-out;
+ }
+.events-page .box-image:hover {
+    transform: translateY(-10px);
+}
+.events-page{
+    min-height: 100%;
+}

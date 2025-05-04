@@ -1,0 +1,167 @@
+
+.main-landing-page {
+
+}
+
+
+
+.wrapper-dot div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(62, 193, 243, 0.06);
+    border: 1px solid #00A3ED;
+    backdrop-filter: blur(26.6624px);
+    position: absolute;
+    -webkit-animation: translate 5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both infinite alternate-reverse;
+    animation: translate 5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both infinite alternate-reverse;
+
+}
+
+@keyframes translate {
+    to {
+        transform: translateY(-50px) scale(1.2);
+        opacity: .5;
+    }
+
+}
+
+.wrapper-dot div span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #00A3ED;
+    border-radius: 50%;
+
+}
+
+.wrapper-dot div:nth-child(1) {
+    animation-delay: .5s;
+    left: 10%;
+    top: 20%;
+}
+
+.wrapper-dot div:nth-child(2) {
+    animation-delay: 1s;
+    left: 20%;
+    top: 50%;
+    z-index: 99;
+}
+
+.wrapper-dot div:nth-child(3) {
+    animation-delay: 1.5s;
+    left: 80%;
+    top: 20%;
+}
+
+.wrapper-dot div:nth-child(4) {
+    animation-delay: 2s;
+    left: 70%;
+    top: 55%;
+    width: 20px;
+    height: 20px;
+    z-index: 999;
+}
+
+.wrapper-dot div:nth-child(4) span {
+    width: 5px;
+    height: 5px;
+}
+
+.wrapper-dot div:nth-child(5) {
+    left: 92%;
+    top: 75%;
+    z-index: 999;
+    animation-delay: .5s;
+}
+
+.wrapper-dot div:nth-child(6) {
+    left: 36%;
+    top: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 1s;
+}
+
+.wrapper-dot div:nth-child(6) span {
+    width: 5px;
+    height: 5px;
+}
+
+.cards-group {
+    margin-top: -75px;
+    z-index: 999;
+    position: relative;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .cards-group {
+        margin-top: 0px;
+    }
+    .image-circle{
+         height: 350px !important;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .image-circle {
+        height: 200px !important;
+    }
+    .wrapper-dot div{
+        backdrop-filter:none;
+        height: 25px;
+        width: 25px;
+    }
+    .wrapper-dot div span{
+        width: 5px;
+        height: 5px;
+    }
+
+
+}
+@media screen and (min-width: 1024px) {
+    .image-circle .mask {
+        width: 2000px !important;
+        height: 2000px !important;
+        box-shadow: 0px 0px 5px 500px #fff;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        background: transparent !important;
+        max-width: 100%;
+        transition: .2s all ease-in-out;
+    }
+    .wrapper-dot{
+        right: 0;
+        max-width: 100%;
+    }
+}
+.wrapper-dot {
+    left: 0;
+
+}
+.cards-group .card-box img {
+    width: 122px;
+    height: 122px;
+    object-fit: none;
+}
+@media screen and (min-width: 991px){
+
+    .cards-group .card-box {
+        height: 233px;
+        min-height: 233px;
+    }
+}
+@media screen and (min-width: 2000px) {
+
+    .image-circle .mask {
+        width: 100% !important;
+        left: 0% !important;
+
+}
+}
+/*....*/

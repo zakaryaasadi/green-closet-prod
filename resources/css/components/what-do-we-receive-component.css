@@ -1,0 +1,37 @@
+
+.cards-group {
+    margin-top: -75px;
+    z-index: 999;
+    position: relative;
+}
+
+
+@media screen and (max-width: 991px) {
+    .cards-group {
+        margin-top: 0;
+    }
+
+    .cards-group .card-box img {
+        margin-top: 15px;
+        width: 80px !important;
+        height: 80px !important;
+        object-fit: contain;
+    }
+}
+
+
+.cards-group .card-box img {
+    width: 125px;
+    height: 125px;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 991px) {
+    .cards-group .card-box {
+        height: 233px;
+        min-height: 233px;
+    }
+
+}
+
+/*....*/

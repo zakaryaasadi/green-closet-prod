@@ -1,0 +1,1 @@
+.pagination .pagination-number a{border:1px solid #7cae8f;color:#d9d9d9;height:32px;line-height:32px;text-align:center;transition:all .3s ease-in-out;width:32px}.pagination .pagination-number a.active,.pagination .pagination-number a:not(.active):hover{background-color:#008451;border-color:#008451;color:#fff}.pagination-container{direction:rtl}.pagination svg{rotate:180deg}

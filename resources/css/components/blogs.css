@@ -1,0 +1,11 @@
+
+.link-news img {
+    transition: .3s all ease-in-out !important;
+}
+
+section.news .card img {
+    max-height: 350px;
+    height: 350px;
+}
+
+

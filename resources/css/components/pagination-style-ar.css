@@ -1,0 +1,6 @@
+.row.pagination  * {
+    direction: ltr !important;
+}
+.pagination svg {
+    rotate: 0deg;
+}

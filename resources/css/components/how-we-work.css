@@ -1,0 +1,111 @@
+.how-we-work .boxs {
+    border-left: 3px dashed #008451;
+}
+
+.container-box {
+    height: 20%;
+    cursor: pointer;
+}
+
+.container-box .title {
+    min-height: 100%;
+}
+
+
+
+.container-box h1:before {
+    position: absolute;
+    content: attr(data-number);
+    left: -15px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #008451;
+    font-weight: bold;
+    border-radius: 50%;
+    font-size: 15px;
+    transition: .3s all ease-in-out;
+    border: .5px solid #008451;
+    font-family: Poppins !important;
+    top: 50%;
+    width: 25px;
+    height: 25px;
+    transform: translateY(-50%);
+}
+
+.container-box:hover h1:before {
+    background: #008451;
+    color: #fff;
+    box-shadow: 0px 0px 5px 5px rgb(11 161 208 / 41%);;
+}
+
+.how-we-work .boxs {
+    height: fit-content !important;
+}
+
+
+
+
+.container-box.active {
+    min-height: fit-content;
+}
+
+.container-box.active h1:before {
+    background: #008451;
+    color: #fff;
+    box-shadow: 0px 0px 5px 5px #00845185;
+}
+
+.how-we-work .image-container {
+    transition: .5s all ease-in-out;
+    background-position: center;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 600px;
+    max-height: 600px;
+    min-height: 600px;
+}
+
+@media screen and (min-width: 991px) {
+    .how-we-work {
+        height: fit-content;
+        padding: 50px 0;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .image-container {
+        height: 600px;
+    }
+
+}
+
+@media screen and  (max-width: 768px) {
+    .image-container {
+        height: 450px;
+    }
+
+}
+
+@media screen and  (max-width: 991px) {
+    .image-container {
+        background-size: 85%;
+    }
+
+    section.how-we-work {
+        height: fit-content;
+    }
+    .how-we-work .image-container {
+        min-height: 200px !important;
+        height: 200px !important;
+        background-size: contain !important;
+        margin: 20px 0;
+    }
+
+}

@@ -1,0 +1,100 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Helpers\AppHelper;
+use App\Models\Country;
+use App\Models\Language;
+use App\Models\LocationSettings;
+use App\Models\Page;
+use App\Models\Setting;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+use Illuminate\Foundation\Bus\DispatchesJobs;
+use Illuminate\Foundation\Validation\ValidatesRequests;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Routing\Redirector;
+use ipinfo\ipinfo\IPinfoException;
+use Psr\Container\ContainerExceptionInterface;
+use Psr\Container\NotFoundExceptionInterface;
+use Illuminate\Support\Facades\Log;
+
+class DynamicController extends BaseController
+{
+    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    /**
+     * @throws NotFoundExceptionInterface
+     * @throws IPinfoException
+     * @throws ContainerExceptionInterface
+     */
+    public function BaseRoute(LocationSettings $locationSetting = null, Page $page = null): View|Factory|Redirector|RedirectResponse|Application
+    {
+        if (!$locationSetting) {
+Log::error('❌ اختبار إرسال error إلى Slack')
+            $clientCountry = AppHelper::getCurrentCountry();
+            if ($clientCountry != null) {
+                $locationSetting = LocationSettings::whereCountryId($clientCountry->id)->first();
+            } else {
+                $locationSetting = LocationSettings::whereSlug(Setting::where(['country_id' => null])->first()->slug)->first();
+            }
+
+            return redirect('/' . $locationSetting->slug);
+
+        }
+
+        if ($page == null) {
+            $page = Page::where(['is_home' => true, 'language_id' => $locationSetting->language_id, 'country_id' => $locationSetting->country_id])->first();
+        } else {
+            $page = Page::where(['slug' => $page->slug, 'language_id' => $locationSetting->language_id, 'country_id' => $locationSetting->country_id])->first();
+                $page ?? abort(404);
+        }
+
+        if ($page->slug === 'create-order') {
+            if (!\Auth::check())
+                return redirect('/' . AppHelper::getSlug() . '/auth/login');
+            session()->put('getFrom', 'order');
+            if (\Auth::user()->addresses()->where('country_id', '=', $locationSetting->country_id)->count() == 0)
+                return redirect('/' . AppHelper::getSlug() . '/dashboard/addresses');
+        }
+
+        $languages = Language::all();
+        foreach ($languages as $language) {
+            $allLanguages[] = $language->languageToComponent();
+        }
+
+        app()->setLocale($locationSetting->language->code);
+        session()->put('slug', $locationSetting->slug);
+        session()->put('section', $page->slug);
+        $page['sections'] = $page->activeSortedSections()->get();
+
+        return view('home', [
+            'data' => $page,
+            'locationSettings' => $locationSetting['structure'],
+            'languages' => $allLanguages,
+        ]);
+    }
+
+    public function changeLanguage(LocationSettings $locationSetting, Language $language): Redirector|Application|RedirectResponse
+    {
+        $newLocation = LocationSettings::where(['language_id' => $language->id, 'country_id' => $locationSetting->country_id])->first();
+
+        session()->put('slug', $newLocation->slug);
+        app()->setLocale($locationSetting->language->code);
+
+        return redirect('/' . $newLocation->slug);
+    }
+
+    public function changeCountry(LocationSettings $locationSetting, Country $country): Redirector|Application|RedirectResponse
+    {
+        $newLocation = LocationSettings::where(['language_id' => $locationSetting->language_id, 'country_id' => $country->id])->first();
+
+        session()->put('slug', $newLocation->slug);
+        app()->setLocale($locationSetting->language->code);
+
+        return redirect('/' . $newLocation->slug);
+    }
+}

@@ -1,0 +1,152 @@
+<?php
+
+namespace App\Http\Resources\Order;
+
+use App\Helpers\AppHelper;
+use App\Models\Invoice;
+use App\Models\Order;
+use App\Models\Setting;
+use App\Traits\Language\TranslateHelper;
+use Illuminate\Http\Resources\Json\JsonResource;
+use ipinfo\ipinfo\IPinfoException;
+
+/**
+ * @mixin Order
+ **/
+class OrderResource extends JsonResource
+{
+    use TranslateHelper;
+
+    /**
+     * Transform the resource into an array.
+     *
+     * @throws IPinfoException
+     */
+    public function toArray($request): array
+    {
+        $location = $this->location;
+        $settings = Setting::whereCountryId(AppHelper::getCoutnryForMobile())?->first() ?? Setting::where(['country_id' => null])->first();
+        $language = AppHelper::getLanguageForMobile();
+
+        if ($language == 'ar')
+            $currency = $settings->currency_ar;
+        else
+            $currency = $settings->currency_en;
+
+        return [
+            'id' => $this->id,
+            'country' => $this->country ? [
+                'name' => $this->getTranslateValue($language, $this->country->meta, 'name', $this->country->name),
+                'meta' => $this->country->meta,
+                'code' => $this->country->code,
+            ] : null,
+            'customer' => $this->customer ? [
+                'id' => $this->customer->id,
+                'email' => $this->customer->email ?? '',
+                'phone' => $this->customer->phone ?? '',
+                'name' => $this->customer->name ?? '',
+                'image' => $this->customer->imageUrl(),
+            ] : null,
+            'address' => $this->address ? [
+                'id' => $this->address->id,
+                'province' => $this->address->province ? [
+                    'id' => $this->address->province->id,
+                    'name' => $this->getTranslateValue($language, $this->address->province->meta, 'name', $this->address->province->name),
+                ] : null,
+                'apartment_number' => $this->address->apartment_number,
+                'floor_number' => $this->address->floor_number,
+                'building' => $this->address->building,
+                'location' => [
+                    'title' => $this->address->location_title,
+                    'province' => $this->address->location_province,
+                    'lat' => $this->address->location->getLat(),
+                    'lng' => $this->address->location->getLng(),
+                ],
+            ] : null,
+            'agent' => $this->agent ? [
+                'id' => $this->agent->id,
+                'email' => $this->agent->email,
+                'phone' => $this->agent->phone,
+                'has_verified_email' => $this->agent->hasVerifiedEmail(),
+                'has_verified_phone' => $this->agent->hasVerifiedPhone(),
+                'name' => $this->agent->name,
+                'image' => $this->agent->imageUrl(),
+                'language' => $this->agent->language,
+                'settings' => $this->agent->agentSettings ? [
+                    'tasks_per_day' => $this->agent->agentSettings?->tasks_per_day,
+                    'holiday' => $this->agent->agentSettings?->holiday,
+                    'budget' => $this->agent->agentSettings?->budget,
+                    'start_work' => $this->agent->agentSettings?->start_work,
+                    'finish_work' => $this->agent->agentSettings?->finish_work,
+                    'work_shift' => $this->agent->agentSettings?->work_shift,
+                ] : [],
+            ] : null,
+            'association' => $this->association ? [
+                'id' => $this->association->id,
+                'status' => $this->association->status,
+                'priority' => $this->association->priority,
+                'title' => $this->association->getTranslateValue($language, $this->association->meta, 'title', $this->association->title),
+                'description' => $this->getTranslateValue($language, $this->association->meta, 'description', $this->association->description),
+                'country' => $this->country != null ? $this->country->name : '',
+                'url' => $this->association->url,
+                'thumbnail' => $this->association->thumbnail,
+            ] : null,
+            'location' => ['lat' => $location?->getLat(), 'lng' => $location?->getLng()],
+            'status' => $this->status,
+            'type' => $this->type,
+            'agent_payment' => $this->agent_payment,
+            'failed_message' => $this->getMessage(),
+            'weight' => $this->weight ?? 0.0,
+            'value' => $this->value . '' . $currency,
+            'total_time' => $this->total_time,
+            'payment_remaining' => $this->payment_remaining,
+            'start_at' => $this->start_at,
+            'ends_at' => $this->ends_at,
+            'platform' => $this->platform,
+            'payment_status' => $this->payment_status,
+            'image' => $this->imageUrl(),
+            'items' => $this->getItems($language),
+            'invoice' => $this->getInvoice(),
+            'created_at' => $this->created_at,
+            'start_task' => $this->start_task,
+            'start_task_date' => $this->start_task ? $this->start_task->format('Y-m-d') : $this->start_task,
+        ];
+    }
+
+    public function getMessage(): ?string
+    {
+        if ($this->failed_message)
+            return $this->failed_message;
+
+        elseif ($this->message)
+            return $this->message->content;
+
+        return null;
+    }
+
+    public function getInvoice(): ?string
+    {
+        $invoice = Invoice::whereOrderId($this->id)->first();
+
+        return $invoice?->pdfUrl();
+
+    }
+
+    public function getItems($locale): ?array
+    {
+        if (is_null($this->items)) return null;
+
+        $agentItems = [];
+        foreach ($this->items as $item) {
+            $agentItems[] = [
+                'id' => $item->id,
+                'title' => $this->getTranslateValue($locale, $item->meta, 'title', $item->title),
+                'image' => $item->image_path,
+                'price_per_kg' => $item->price_per_kg,
+                'weight' => $item->pivot ? $item->pivot->weight : null,
+            ];
+        }
+
+        return $agentItems;
+    }
+}

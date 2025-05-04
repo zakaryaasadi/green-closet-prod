@@ -1,0 +1,228 @@
+.our-app-section::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-position: center;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+
+
+}
+#ourAppLottie{
+    width: 100%;
+    position: absolute;
+    height: 56vw;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+}
+.app-image{
+        width: 290px;
+    height: 85px;
+    object-fit: scale-down;
+}
+@media screen and ( min-width: 768px) {
+    .our-app-section {
+        height: 800px;
+
+    }
+    .our-app-section .contact a img {
+        width: 45px;
+        height: 45px;
+    }
+    .our-app-section .contact a {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and ( max-width: 1400px) {
+    .our-app-section {
+        background-size: cover;
+        background-position: center;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .our-app-section {
+        height: fit-content;
+        padding: 50px 0;
+        min-height: 7px;
+    }
+    .our-app-section .contact a img {
+        width: 20px;
+        height: 20px;
+
+    }
+    .our-app-section .contact a img {
+        width: 20px;
+        height: 20px;
+    }
+    .our-app-section .contact a {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .our-app-section .contact a {
+        font-size: 8px;
+    }
+}
+
+.text-maastricht-blue {
+    color: #012B3A;
+}
+
+.our-app-section .contact a img {
+    object-fit: scale-down;
+
+}
+
+.btn-outline-dark:hover {
+    background-color: #008451 !important;
+    border-color: #008451 !important;
+}
+
+.our-app-section .contact a,
+.our-app-section .contact a * {
+    direction: ltr !important;
+}
+
+.our-app-section .contact .btn:hover img {
+    -webkit-animation: ring 5s linear infinite;
+    animation: ring 5s linear infinite;
+    transform-origin-x: 50%;
+    transform-origin-y: 0px;
+
+}
+
+
+@-webkit-keyframes ring {
+    0% {
+        -webkit-transform: rotate(-15deg);
+        transform: rotate(-15deg)
+    }
+    2% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg)
+    }
+    4% {
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+    }
+    6% {
+        -webkit-transform: rotate(18deg);
+        transform: rotate(18deg)
+    }
+    8% {
+        -webkit-transform: rotate(-22deg);
+        transform: rotate(-22deg)
+    }
+    10% {
+        -webkit-transform: rotate(22deg);
+        transform: rotate(22deg)
+    }
+    12% {
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+    }
+    14% {
+        -webkit-transform: rotate(18deg);
+        transform: rotate(18deg)
+    }
+    16% {
+        -webkit-transform: rotate(-12deg);
+        transform: rotate(-12deg)
+    }
+    18% {
+        -webkit-transform: rotate(12deg);
+        transform: rotate(12deg)
+    }
+    20% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+}
+
+@keyframes ring {
+    0% {
+        -webkit-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        transform: rotate(-15deg)
+    }
+    2% {
+        -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        transform: rotate(15deg)
+    }
+    4% {
+        -webkit-transform: rotate(-18deg);
+        -ms-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+    }
+    6% {
+        -webkit-transform: rotate(18deg);
+        -ms-transform: rotate(18deg);
+        transform: rotate(18deg)
+    }
+    8% {
+        -webkit-transform: rotate(-22deg);
+        -ms-transform: rotate(-22deg);
+        transform: rotate(-22deg)
+    }
+    10% {
+        -webkit-transform: rotate(22deg);
+        -ms-transform: rotate(22deg);
+        transform: rotate(22deg)
+    }
+    12% {
+        -webkit-transform: rotate(-18deg);
+        -ms-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+    }
+    14% {
+        -webkit-transform: rotate(18deg);
+        -ms-transform: rotate(18deg);
+        transform: rotate(18deg)
+    }
+    16% {
+        -webkit-transform: rotate(-12deg);
+        -ms-transform: rotate(-12deg);
+        transform: rotate(-12deg)
+    }
+    18% {
+        -webkit-transform: rotate(12deg);
+        -ms-transform: rotate(12deg);
+        transform: rotate(12deg)
+    }
+    20% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+}
+
+
+
+@media screen and ( min-width: 991px) and (max-width: 1200px) {
+    .our-app-section:after {
+        height: 141%;
+        z-index: -1;
+        top: -41%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .our-app-section:after {
+        height: 207%;
+        z-index: -1;
+        top: -107%;
+        background-size: inherit;
+    }
+}
