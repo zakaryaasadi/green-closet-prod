@@ -44,6 +44,11 @@ class DynamicController extends BaseController
 
         }
 
+        $country = Country::find($locationSetting->country_id);
+        if($country && $country->status == 2){
+            abort(404);
+        }
+
         if ($page == null) {
             $page = Page::where(['is_home' => true, 'language_id' => $locationSetting->language_id, 'country_id' => $locationSetting->country_id])->first();
         } else {
